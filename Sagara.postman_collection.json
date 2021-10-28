@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "41b5718b-0169-41f9-807f-dc07eec1780d",
+		"name": "Sagara",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/Application/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Application/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Application",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Application/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"hafid\",\r\n  \"password\": \"Hafid!23\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Application/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Application",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiaGFmaWQiLCJqdGkiOiI5MWFjZjhhYS0zZmVmLTQzODEtODE5OS00ZjVlMzI2MGI4NzEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTYzMzMxMjU0NCwiaXNzIjoiRGV2SXNzdWVyIiwiYXVkIjoiRGV2QXVkaWVuY2UifQ._rnOre9Q_B661es1KVL2aOe0OA6n1j1XyhtQ6fDyxLs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Product/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiaGFmaWQiLCJqdGkiOiI5MWFjZjhhYS0zZmVmLTQzODEtODE5OS00ZjVlMzI2MGI4NzEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTYzMzMxMjU0NCwiaXNzIjoiRGV2SXNzdWVyIiwiYXVkIjoiRGV2QXVkaWVuY2UifQ._rnOre9Q_B661es1KVL2aOe0OA6n1j1XyhtQ6fDyxLs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Courses/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Courses",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiaGFmaWQiLCJqdGkiOiI5MWFjZjhhYS0zZmVmLTQzODEtODE5OS00ZjVlMzI2MGI4NzEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTYzMzMxMjU0NCwiaXNzIjoiRGV2SXNzdWVyIiwiYXVkIjoiRGV2QXVkaWVuY2UifQ._rnOre9Q_B661es1KVL2aOe0OA6n1j1XyhtQ6fDyxLs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"courseName\": \"Latihan Web Dasar\",\r\n  \"price\": 600000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiaGFmaWQiLCJqdGkiOiI5MWFjZjhhYS0zZmVmLTQzODEtODE5OS00ZjVlMzI2MGI4NzEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTYzMzMxMjU0NCwiaXNzIjoiRGV2SXNzdWVyIiwiYXVkIjoiRGV2QXVkaWVuY2UifQ._rnOre9Q_B661es1KVL2aOe0OA6n1j1XyhtQ6fDyxLs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"courseId\": 1,\r\n  \"courseName\": \"Latihan Web Dasar\",\r\n  \"price\": 600000\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Product/1",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhNzY3NjNhMi1kYzM4LTQ4NWEtOGFkOC05MTRkZDViYjAyMmQiLCJzdWIiOiJoYWZpZCIsIlVzZXJJZCI6IjFmNTJlMDcwLTFkMzktNGFhNy1hNGQyLWU2NWRhZmEwZTM3MyIsIlVzZXJOYW1lIjoiaGFmaWQiLCJEaXZpc2lvbklkIjoiOTRkNmExZDctNzIzOS00MWRmLWIxNDQtYWU4ODBiMzY5NDc2IiwiQ29ycG9yYXRlSWQiOiIwYTc4NzMwMy01ODNhLTQ1ZjUtYmZhMS0wNDRkZjUwOWZkMzYiLCJEaXZpc2lvbk5hbWUiOiJNYXJrZXRpbmciLCJDb3Jwb3JhdGVOYW1lIjoiUFQuIFNwcmludCBBc2lhIiwiYWNjZXNzR3JvdXBOYW1lIjoiQWRtaW5pc3RyYXRvciBEZWZhdWx0Iiwicm9sZXMiOlsiTWFuYWdlQmxvY2tpbmdDb250YWN0IiwiUmVwb3J0QWxsRGF0YSIsIkR5bmFtaWMiLCJNYW5hZ2VUZW1wbGF0ZSIsIkhpc3RvcnlVcGxvYWRDb250YWN0IiwiUmVwb3J0VmFsaWRhdGVkIiwiU2VuZE1hbnVhbGx5IiwiUmVwb3J0RGV0YWlsVXNlckxldmVsIiwiU2VuZEZyb21GaWxlIiwiUmVndWxlciIsIk91dGJveCIsIkFwcHJvdmVBbmRSZWplY3QiLCJNYW5hZ2VHcmVldGluZyIsIk1hbmFnZUZpZWxkIiwiUmVwb3J0RGV0YWlsIiwiUmVwb3J0U3VtbWFyeVVzZXJMZXZlbCIsIkxpc3RDb250YWN0cyIsIlJlcG9ydFN1bW1hcnlEaXZpc2lvbkxldmVsIiwiRGV0YWlsUmVwb3J0IiwiTGlzdEdyb3VwQ29udGFjdHMiLCJSZXBvcnRXcm9uZ0Zvcm1hdCIsIlJlcG9ydFN1bW1hcnkiXSwiZXhwIjoxNjM0MjY5NjA2LCJpc3MiOiJEZXZJc3N1ZXIiLCJhdWQiOiJEZXZBdWRpZW5jZSJ9.TdSbCn04xwLO3AS21zZ5D92PuvpmKdNwJT8XKOiSsLo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Product/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/Product/Upload",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
